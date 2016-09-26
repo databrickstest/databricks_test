@@ -18,4 +18,8 @@ val rdd3 = rdd2.map(_ * 3)
 
 println(rdd3.reduce((a,b) => a + b))
 
-// COMMAND
+// COMMAND ----------
+
+val rdd4 = rdd3.map(_ - 4)
+
+// COMMAND ----------
