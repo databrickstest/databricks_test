@@ -1,4 +1,4 @@
-// Databricks notebook source exported at Mon, 26 Sep 2016 17:07:09 UTC
+// Databricks notebook source exported at Mon, 26 Sep 2016 17:15:17 UTC
 val rdd = sc.parallelize((1 to 10).toList)
 
 // COMMAND ----------
@@ -23,3 +23,4 @@ println(rdd3.reduce((a,b) => a + b))
 val rdd4 = rdd3.map(_ - 4)
 
 // COMMAND ----------
+
